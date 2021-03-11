@@ -1,0 +1,154 @@
+@import "variables.scss";
+
+.main__wrapper {
+    background-image: url('../img/contacts.jpg');
+    height: auto;
+}
+
+.main__img {
+    margin-top: 300px;
+}
+
+.footer-left__list {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.footer-left__time__block {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.contacts__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%;
+    margin: 0 auto;
+    .email {
+        display: flex;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        .ico {
+            width: 20px;
+            height: 20px;
+            background-image: url('../ico/mail.svg');
+            background-size: 100% 100%;
+            margin-right: 12px;
+        }
+    }
+    .contacts {
+        width: 100%;
+        margin-top: 30px;
+        background: rgba(242, 241, 232, 0.2);
+        padding: 30px;
+        margin-bottom: 100px;
+        .c_title {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.team {
+    &__wrapper {
+        background-image: url('../img/team-bg.jpg');
+        background-size: cover;
+        color: white;
+        .team_bg {
+            background: $blue-dark-o;
+        }
+        .title {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        .team__title {
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 30px;
+        }
+        .team__elms {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 70px;
+            .team__elem {
+                width: 250px;
+                &:first-of-type {
+                    margin-right: 60px;
+                }
+                .img {
+                    width: 250px;
+                    height: 400px;
+                    overflow: hidden;
+                    box-shadow: 8px -8px 0 $blue-dark;
+                    margin-bottom: 18px;
+                    img {
+                        min-height: 100%;
+                        width: auto;
+                        height: auto;
+                        max-width: 120%;
+                    }
+                }
+                .name {
+                    font-size: 22px;
+                }
+                .role {
+                    font-size: 14px;
+                }
+                .tel {
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    text-decoration: none;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                    .ico {
+                        background-image: url('../ico/call.svg');
+                        background-size: 100% 100%;
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 8px;
+                    }
+                }
+                .email {
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    text-decoration: none;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                    .ico {
+                        background-image: url('../ico/mail.svg');
+                        background-size: 100% 100%;
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact__add-h {
+    background: rgba(255, 255,255,0.5);
+    width: 160px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    a {
+        color: $blue-dark;
+        text-decoration: none;
+    }
+}

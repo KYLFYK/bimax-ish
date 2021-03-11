@@ -1,0 +1,167 @@
+.main__wrapper {
+  background-image: url("../img/contacts.jpg");
+  height: auto; }
+
+.main__img {
+  margin-top: 300px; }
+
+.footer-left__list {
+  padding-left: 80px;
+  padding-right: 80px; }
+
+.footer-left__time__block {
+  padding-left: 80px;
+  padding-right: 80px; }
+
+.contacts__block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 90%;
+  margin: 0 auto; }
+  .contacts__block .email {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    text-decoration: none; }
+    .contacts__block .email .ico {
+      width: 20px;
+      height: 20px;
+      background-image: url("../ico/mail.svg");
+      background-size: 100% 100%;
+      margin-right: 12px; }
+  .contacts__block .contacts {
+    width: 100%;
+    margin-top: 30px;
+    background: rgba(242, 241, 232, 0.2);
+    padding: 30px;
+    margin-bottom: 100px; }
+    .contacts__block .contacts .c_title {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-transform: uppercase; }
+
+.team__wrapper {
+  background-image: url("../img/team-bg.jpg");
+  background-size: cover;
+  color: white; }
+  .team__wrapper .team_bg {
+    background: rgba(30, 54, 72, 0.5); }
+  .team__wrapper .title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 60px; }
+  .team__wrapper .team__title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px; }
+  .team__wrapper .team__elms {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 70px; }
+    .team__wrapper .team__elms .team__elem {
+      width: 250px; }
+      .team__wrapper .team__elms .team__elem:first-of-type {
+        margin-right: 60px; }
+      .team__wrapper .team__elms .team__elem .img {
+        width: 250px;
+        height: 400px;
+        overflow: hidden;
+        -webkit-box-shadow: 8px -8px 0 #1e3648;
+                box-shadow: 8px -8px 0 #1e3648;
+        margin-bottom: 18px; }
+        .team__wrapper .team__elms .team__elem .img img {
+          min-height: 100%;
+          width: auto;
+          height: auto;
+          max-width: 120%; }
+      .team__wrapper .team__elms .team__elem .name {
+        font-size: 22px; }
+      .team__wrapper .team__elms .team__elem .role {
+        font-size: 14px; }
+      .team__wrapper .team__elms .team__elem .tel {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        color: white;
+        text-decoration: none;
+        margin-top: 12px;
+        margin-bottom: 12px; }
+        .team__wrapper .team__elms .team__elem .tel .ico {
+          background-image: url("../ico/call.svg");
+          background-size: 100% 100%;
+          width: 20px;
+          height: 20px;
+          margin-right: 8px; }
+      .team__wrapper .team__elms .team__elem .email {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        color: white;
+        text-decoration: none;
+        margin-top: 12px;
+        margin-bottom: 12px; }
+        .team__wrapper .team__elms .team__elem .email .ico {
+          background-image: url("../ico/mail.svg");
+          background-size: 100% 100%;
+          width: 20px;
+          height: 20px;
+          margin-right: 8px; }
+
+.contact__add-h {
+  background: rgba(255, 255, 255, 0.5);
+  width: 160px;
+  height: 46px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-top: 40px; }
+  .contact__add-h a {
+    color: #1e3648;
+    text-decoration: none; }

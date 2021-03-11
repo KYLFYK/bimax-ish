@@ -1,0 +1,112 @@
+@import "variables.scss";
+
+.main__wrapper {
+    background-image: url('../img/fasad.jpeg');
+    min-height: 0;
+    .main-text__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        .text {
+            width: 600px;
+            padding: 30px;
+            background: rgba(255,255,255,0.5);
+            margin-top: 50px;
+        }
+    }
+}
+
+.fasad__text-block {
+    margin-top: 40px;
+    .ft-text {
+        padding-left: 80px;
+        padding-right: 80px;
+        text-align: center;
+    }
+    .sc-text {
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-top: 40px;
+    }
+}
+
+.why-block {
+    margin-top: 80px;
+    .title {
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .why__elems-wrapper {
+        display: flex;
+        .lt-side {
+            width: 60%;
+            min-width: 60%;
+            background-color: $blue-dark;
+            color: white;
+        }
+        .rt-side {
+            width: 40%;
+            min-width: 40%;
+            background-color: #fab44e;
+            color: $blue-dark;
+        }
+        .rt-side, .lt-side {
+            display: flex;
+            padding: 40px;
+            justify-content: space-around;
+            .elem {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 12px;
+                text-align: center;
+            }
+            .ico {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 30px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-size: 100% auto;
+                .bg {
+                    font-size: 65px;
+                    line-height: 65px;
+                }
+            }
+        }
+    }
+}
+
+.if-nd-text {
+    color: $blue-dark;
+    font-weight: bold;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.center-text {
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.fasad-part__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    .partner {
+        margin: 20px;
+    }
+}
+
+.nb-text {
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+}

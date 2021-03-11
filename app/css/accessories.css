@@ -1,0 +1,57 @@
+.main__wrapper {
+  background-image: url("../img/accessories-bg.jpg"); }
+
+.acces-text {
+  margin-top: 5vh;
+  padding: 60px;
+  margin-left: 40px;
+  border-radius: 4px;
+  max-width: 70%;
+  background-color: rgba(255, 255, 255, 0.6); }
+  .acces-text .title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e3648;
+    margin-bottom: 20px; }
+  .acces-text .text {
+    font-size: 22px;
+    color: #1e3648; }
+  .acces-text .qualities {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px; }
+    .acces-text .qualities .item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 300px;
+      text-align: center; }
+      .acces-text .qualities .item:not(:last-of-type) {
+        margin-right: 30px; }
+      .acces-text .qualities .item .text {
+        font-size: 18px; }
+      .acces-text .qualities .item .ico {
+        width: 60px;
+        height: 60px;
+        background-size: 100% 100%;
+        margin-bottom: 18px; }
+        .acces-text .qualities .item .ico.guarantee {
+          background-image: url("../ico/guarantee.svg"); }
+        .acces-text .qualities .item .ico.settings {
+          background-image: url("../ico/settings.svg"); }
+        .acces-text .qualities .item .ico.acua {
+          background-image: url("../ico/water-drop.svg"); }
+        .acces-text .qualities .item .ico.wind {
+          background-image: url("../ico/wind-o.svg"); }

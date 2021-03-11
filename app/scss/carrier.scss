@@ -1,0 +1,150 @@
+@import './variables.scss';
+
+.main {
+    &__wrapper {
+        min-height: 100vh;
+        height: 100vh;
+        min-width: 100vw;
+        background-image: url('../img/carier.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__header {
+        background-color: aliceblue;
+        ul {
+            list-style: none;
+            display: flex;
+            padding: 20px;
+            margin: 0;
+            justify-content: center;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: $blue-dark;
+                    transition: opacity .3s ease-out;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+
+                &:not(:last-of-type) {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    &__img {
+        background-color: $blue-light;
+        padding: 20px;
+        color: white;
+
+        .text {
+            .title {
+                font-size: rem(34);
+                text-align: center;
+            }
+        }
+    }
+}
+
+.form {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        width: 100vw;
+        color: white;
+        background-image: url('../img/carier-form.jpg');
+        background-size: cover;
+
+        .text {
+            background: $blue-light;
+            padding: 40px;
+            padding-left: 20px;
+        }
+    }
+
+    &__block {
+        background-color: $blue-light-o;
+        padding: 40px;
+        margin: 20px;
+        margin-top: auto;
+
+        .title {
+            font-size: rem(25);
+            margin-bottom: 20px;
+        }
+
+        .form {
+            display: flex;
+        }
+
+        .form__left, .form__right {
+            margin-right: 70px;
+
+            label {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+
+                input {
+                    margin-top: 10px;
+                    height: 36px;
+                    padding-left: 10px;
+                    outline: none;
+                    width: 300px;
+                }
+
+                textarea {
+                    margin-top: 10px;
+                    height: 214px;
+                    padding: 20px;
+                    resize: none;
+                    outline: none;
+                    width: 600px;
+                }
+            }
+        }
+
+        .form__right {
+            label {
+                position: relative;
+                height: 100%;
+            }
+            .file {
+                position: absolute;
+                opacity: 0;
+            }
+            .file-label {
+                position: absolute;
+                right: 50px;
+                bottom: 20px;
+                cursor: pointer;
+                opacity: 1;
+                height: auto;
+                padding-left: 30px;
+                color: rgba(222, 84, 84, 1);
+                white-space: nowrap;
+                width: fit-content;
+                &::after {
+                    position: absolute;
+                    content: '';
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    left: 0;
+                    background: url('../ico/paperclip.svg');
+                    background-size: 100% 100%;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+    }
+}

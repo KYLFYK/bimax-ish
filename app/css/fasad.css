@@ -1,0 +1,138 @@
+.main__wrapper {
+  background-image: url("../img/fasad.jpeg");
+  min-height: 0; }
+  .main__wrapper .main-text__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .main__wrapper .main-text__wrapper .text {
+      width: 600px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.5);
+      margin-top: 50px; }
+
+.fasad__text-block {
+  margin-top: 40px; }
+  .fasad__text-block .ft-text {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center; }
+  .fasad__text-block .sc-text {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 40px; }
+
+.why-block {
+  margin-top: 80px; }
+  .why-block .title {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center; }
+  .why-block .why__elems-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .why-block .why__elems-wrapper .lt-side {
+      width: 60%;
+      min-width: 60%;
+      background-color: #1e3648;
+      color: white; }
+    .why-block .why__elems-wrapper .rt-side {
+      width: 40%;
+      min-width: 40%;
+      background-color: #fab44e;
+      color: #1e3648; }
+    .why-block .why__elems-wrapper .rt-side, .why-block .why__elems-wrapper .lt-side {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 40px;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; }
+      .why-block .why__elems-wrapper .rt-side .elem, .why-block .why__elems-wrapper .lt-side .elem {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 12px;
+        text-align: center; }
+      .why-block .why__elems-wrapper .rt-side .ico, .why-block .why__elems-wrapper .lt-side .ico {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 30px;
+        text-align: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        background-size: 100% auto; }
+        .why-block .why__elems-wrapper .rt-side .ico .bg, .why-block .why__elems-wrapper .lt-side .ico .bg {
+          font-size: 65px;
+          line-height: 65px; }
+
+.if-nd-text {
+  color: #1e3648;
+  font-weight: bold;
+  margin: 40px;
+  padding: 20px;
+  text-align: center; }
+
+.center-text {
+  font-weight: bold;
+  padding: 20px;
+  text-align: center; }
+
+.fasad-part__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 80px; }
+  .fasad-part__wrapper .partner {
+    margin: 20px; }
+
+.nb-text {
+  text-align: center;
+  margin: 40px;
+  padding: 20px; }

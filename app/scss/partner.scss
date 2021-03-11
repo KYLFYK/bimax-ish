@@ -1,0 +1,135 @@
+@import "variables.scss";
+
+.main__wrapper {
+    background-image: none;
+    height: auto;
+    position: relative;
+    .bg-img-p {
+        position: absolute;
+        top: 62px;
+        background-image: url('../img/partner-bg.jpg');
+        background-position: 50% 92%;
+        height: 500px;
+        width: 100%;
+    }
+}
+
+.main__img {
+    margin-top: 500px;
+    position: relative;
+    p {
+        max-width: 70%;
+    }
+}
+
+.skills__block {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .skill {
+        background: $blue-dark;
+        padding: 20px;
+        max-width: 40%;
+        &:not(:last-of-type) {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.director__triangle {
+    position: absolute;
+    right: 0;
+    top: -5vw;
+    width: 50vw;
+    height: 50vw;
+    border: 50vw solid transparent;
+    border-right: 50vw solid $blue-dark;
+    display: flex;
+    align-items: center;
+    &.sh {
+        top: -3vw;
+        border-right: 50vw solid $blue-dark-o;
+    }
+    .director__card {
+        width: 200px;
+        position: absolute;
+        right: -40vw;
+        .img {
+            width: 200px;
+            height: 300px;
+            overflow: hidden;
+            img {
+                width: 200px;
+            }
+        }
+        .name {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.elements__block {
+    display: flex;
+    padding: 20px;
+    width: 62vw;
+    height: 150px;
+    background: linear-gradient(45deg, rgba(255,255,255,0.7) calc(100% - 120px), transparent 120px);
+    color: $blue-dark;
+    .ico {
+        height: 80px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    svg {
+        fill: $blue-dark;
+        height: 80px;
+        width: 80px;
+        &.ltl {
+            height: 60px;
+            width: 60px;
+        }
+    }
+    .elem {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        &:not(:last-of-type) {
+            margin-right: 30px;
+        }
+        .elem-text {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}
+
+.download {
+    color: black;
+    background: white;
+    text-decoration: none;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 440px;
+    &:first-of-type {
+        margin-right: 40px;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+    transition: background-color .3s ease-out;
+    .ico {
+        width: 24px;
+        height: 24px;
+        background-size: 100% 100%;
+        margin-right: 14px;
+        background-image: url('../ico/file.svg');
+    }
+
+    &:hover {
+        background: rgba(255,255,255,0.7);
+    }
+}
